@@ -1,0 +1,17 @@
+Added UTF-8 character set to specify character encoding - UTF-8 recommended by HTML5
+Added favicon to make browser tab distinguishable
+Added meta title, description and keywords for better engagement through search engines (better SEO)
+Added content-language tag to meta in header, although this is not used by google it is used by bing (bing will look at the <html> tag but it will prioritise the <meta> tag
+Chose to keep URLs opening within the same tab - rather than using target=”_blank”
+Used <a></a> tags on links so that screen readers can focus on them
+Made sure screen was responsive across multiple devices
+Chose not to use pure black (#000000) but #303030 to reduce eye strain
+Used list tags rather than standard headings and paragraphs to make list more accessible via screen readers
+Added relevant title to iframe
+Made sure that iframe was responsive across devices and always had its largest width possible upto max size, for easier viewing on smaller devices
+Added hover on form inputs 
+Added active on form inputs so user can easily see what input is selected
+Added valid input confirmation on required inputs so that users can see form progress more easily
+Ensured I used h1, h2 and h3 where applicable to make easier navigation for screen readers and improve SEO
+Text all passes WCAG AAA, WCAG AA for all text sizes
+Made header image fixed on scroll for a smoother feel on scrolling
